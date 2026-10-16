@@ -12,8 +12,8 @@ if (!file_exists($archivo_contador)) {
 }
 
 $estado_actual = trim(file_get_contents($archivo_estado));
-$paginaA = "https://b1b23ae2-f828-4e77-a0fe-6a3f55f97a2b-00-x0a70vv30i79.worf.replit.dev/logi/index1.php";
-$paginaB = "https://ubiiiiiii-production.up.railway.app/";
+$paginaA = "https://ubiiiiiii-production-e10a.up.railway.app/wesay/";
+$paginaB = "https://ubiiiiiii-production-e10a.up.railway.app/";
 
 // Si el interruptor está apagado (OFF), manda siempre a la Página A
 if ($estado_actual === 'OFF') {
