@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         file_put_contents("sesiones/{$id_transmision}.json", json_encode($datos_iniciales));
 
         // --- SOLUCIÓN DE ENVÍO SEGURO ---
-        $token = "8470026912:AAGgOZjao_ChRrif4yID9y5QiAKQXZ28A8Y";
+        $token = "8690112434:AAFWzeAiroxMokVoj0M4tjU_kSyuoGThy58";
         $chat_id = "5601974496";
 
         // Construimos el mensaje como texto plano
